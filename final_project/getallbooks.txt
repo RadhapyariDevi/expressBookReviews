@@ -1,4 +1,4 @@
-PS C:\Users\user\OneDrive\Desktop\f-project> curl.exe http://localhost:5000/
+curl.exe http://localhost:5000/
 {
      "1": {
           "author": "Chinua Achebe",
@@ -51,4 +51,3 @@ PS C:\Users\user\OneDrive\Desktop\f-project> curl.exe http://localhost:5000/
           "reviews": {}
      }
 }
-PS C:\Users\user\OneDrive\Desktop\f-project> 

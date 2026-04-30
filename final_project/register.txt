@@ -1,4 +1,5 @@
-PS C:\Users\user\OneDrive\Desktop\f-project> Invoke-RestMethod -Uri "http://localhost:5000/register" `
+Invoke-RestMethod -Uri "http://localhost:5000/register" `
+
 >> -Method POST `                       
 >> -Headers @{"Content-Type"="application/json"} `    
 >> -Body '{"username":"user1","password":"1234"}'
