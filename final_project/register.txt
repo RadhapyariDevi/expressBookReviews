@@ -1,10 +1,2 @@
-Invoke-RestMethod -Uri "http://localhost:5000/register" `
-
->> -Method POST `                       
->> -Headers @{"Content-Type"="application/json"} `    
->> -Body '{"username":"user1","password":"1234"}'
-
-message                     
--------                     
-User registered successfully
-
+$ curl.exe -X POST http://localhost:5000/register -H "Content-Type: application/json" -d "{\"username\":\"user3\",\"password\":\"1234\"}"
+{"message":"User successfully registered. Now you can login"}
